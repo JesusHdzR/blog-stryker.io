@@ -1,0 +1,16 @@
+@import url("normalize.css");
+@import url("formalize.css");
+@import url("responsive.gs.12col.css");
+@import url("main.css");
+@import url("responsive.css");
+
+body {
+    background-color: aquamarine;
+    font-family: "Droid Serif", Georgia, serif;
+    font-size: 16px;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Varela Round", Arial, sans-serif;
+    font-weight: 400;
+}
