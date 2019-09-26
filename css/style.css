@@ -1,3 +1,4 @@
+/* this file is used for global styles for the blog */
 @import url("normalize.css");
 @import url("formalize.css");
 @import url("responsive.gs.12col.css");
@@ -13,4 +14,19 @@ body {
   h1, h2, h3, h4, h5, h6 {
     font-family: "Varela Round", Arial, sans-serif;
     font-weight: 400;
+}
+
+a{
+    color: #3498db;
+    text-decoration: none;
+}
+a:hover{
+    color: coral;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    /* these style rules will prevent the image from exceeding its container 
+    when the actual image width is larger than the container. */
 }
