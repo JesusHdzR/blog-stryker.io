@@ -77,8 +77,26 @@ template{display:none}
 .blog-menu{margin:30px 0;text-align:center}
 .blog-menu ul{padding-left:0}
 .blog-menu li{margin:15px;list-style:none}
-.blog-menu a{color:#555;font-size:18px;text-transform:uppercase;font-family:"Varela Round",Arial,Helvetica,sans-serif}
+.blog-menu a{color:#333;font-size:18px;text-transform:uppercase;font-family:"Varela Round",Arial,Helvetica,sans-serif}
 .blog-menu a:hover{color:coral}
+.blog_content{padding:15px;margin-bottom:30px}
+.post{margin-bottom:60px;padding-bottom:60px;border-bottom:1px solid #ddd}
+.post-title{font-size:36px;text-align:center;margin-top:0}
+.post-title a{color:#333}
+.post-title a:hover{color:#3498db}
+.post-meta{font-size:18px;margin:20px,0 0;text-align:center;color:#999}
+.post-meta ul{list-style-type:none;padding-left:0}
+.post-meta li{margin-bottom:10px}
+.post-thumbnail{margin:0}
+.post-thumbnail figcaption{color:#bdc3c7;margin-top:15px;font-size:16px;font-style:italic}
+.post-excerpt{color:#555;font-size:18px;line-height:30px}
+.blog-pagination{text-align:center;font-size:16px;position:relative;margin:60px 0}
+.blog-pagination ul{padding-left:0}
+.blog-pagination a,.blog-pagination li{display:block;width:100%}
+.blog-pagination li{font-family:"Varela Round",Arial,Helvetica,sans-serif;color:#bdc3c7;text-transform:uppercase;margin-bottom:10px}
+.blog-pagination a{-webkit-border-radius:30px;-moz-border-radius:30px;border-radius:30px;color:#7f8c8d;padding:15px 30px;border:1px solid #bdc3c7}
+.blog-pagination a:hover{color:#fff;background-color:#7f8c8d;border:1px solid #7f8c8d}
+.blog-pagination .pageof{position:absolute;top:-30px}
 body{background-color:#7fffd4;font-family:"Droid Serif",Georgia,serif;font-size:16px}
 h1,h2,h3,h4,h5,h6{font-family:"Varela Round",Arial,sans-serif;font-weight:400}
 a{color:#3498db;text-decoration:none}

@@ -9,9 +9,13 @@
 .blog-header {
   padding: 30px 15px;
   /* background-color: #333; */
-  background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(0,119,255,0.9066001400560224) 100%);
-  
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 50%,
+    rgba(0, 119, 255, 0.9066001400560224) 100%
+  );
 }
 
 .blog-name {
@@ -45,36 +49,136 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(
     color:aqua;
 } */
 
-.search-form input:focus{
-    -webkit-box-shadow:none;
-    -moz-box-shadow:none;
-    box-shadow: none;
+.search-form input:focus {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
 }
 
 /* style for the navigation */
-.blog-menu{
-    margin: 30px 0; 
-/* top and buttom 30px */
-text-align: center;
+.blog-menu {
+  margin: 30px 0;
+  /* top and buttom 30px */
+  text-align: center;
 }
 
 /* Remove the left-hand side padding of <ul>, as follows */
-.blog-menu ul{
-    padding-left: 0;
+.blog-menu ul {
+  padding-left: 0;
 }
 
-.blog-menu li{
-    margin: 15px;
-    list-style: none;
+.blog-menu li {
+  margin: 15px;
+  list-style: none;
 }
 /* Customize the menu color and font, as follows */
-.blog-menu a{
-    color: #555;
-    font-size: 18px;
-    text-transform: uppercase;
-    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+.blog-menu a {
+  color: #333;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: "Varela Round", Arial, Helvetica, sans-serif;
 }
 
 .blog-menu a:hover {
-    color:coral;
+  color: coral;
 }
+
+/* Enhancing the content section */
+.blog_content {
+  padding: 15px; /*whitespace on all sides*/
+  margin-bottom: 30px;
+}
+
+.post {
+  margin-bottom: 60px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #ddd;
+}
+
+.post-title {
+  font-size: 36px;
+  text-align: center;
+  margin-top: 0;
+  
+}
+
+.post-title a {
+  color: #333;
+}
+.post-title a:hover {
+  color: #3498db;
+}
+.post-meta {
+  font-size: 18px;
+  margin: 20px, 0 0;
+  text-align: center;
+  color: #999;
+}
+.post-meta ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.post-meta li {
+  margin-bottom: 10px;
+}
+/* let's remove these margins for thumbnail */
+.post-thumbnail {
+  margin: 0px;
+}
+.post-thumbnail figcaption {
+  /*check this block*/
+  color: #bdc3c7;
+  margin-top: 15px;
+  font-size: 16px;
+  font-style: italic;
+}
+.post-excerpt {
+  color: #555;
+  font-size: 18px;
+  line-height: 30px;
+}
+/* we will write the style of the blog pagination. First, let's make some adjustments 
+to the font size, the font family, the whitespace, the position, and the alignment */
+.blog-pagination {
+  text-align: center;
+  font-size: 16px;
+  position: relative;
+  margin: 60px 0; /* top and botton 60px -- left and right 0px */
+}
+.blog-pagination ul {
+  padding-left: 0;
+}
+
+.blog-pagination li,
+.blog-pagination a {
+  display: block;
+  width: 100%;
+}
+
+.blog-pagination li {
+  font-family: "Varela Round", Arial, Helvetica, sans-serif;
+  color: #bdc3c7;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.blog-pagination a {
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  color: #7f8c8d;
+  padding: 15px 30px;
+  border: 1px solid #bdc3c7;
+}
+
+.blog-pagination a:hover {
+  color: #fff;
+  background-color: #7f8c8d;
+  border: 1px solid #7f8c8d;
+}
+.blog-pagination .pageof {
+  position: absolute;
+  top: -30px;
+}
+
+/* style footer */
