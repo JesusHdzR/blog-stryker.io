@@ -1,13 +1,80 @@
 /* custom styles rules for the blog */
-* { 
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    *behavior: url(/scripts/boxsizing.htc);
-  }
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  *behavior: url(/js/boxsizing.htc);
+}
 
-  .blog-header {
-      padding: 30px 15px;
-      background-color: #333; 
-  }
+.blog-header {
+  padding: 30px 15px;
+  /* background-color: #333; */
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(0,119,255,0.9066001400560224) 100%);
   
+}
+
+.blog-name {
+  font-family: "Varela Round", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 42px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.blog-name a {
+  color: #fff;
+}
+
+.search-form input {
+  height: 36px;
+  background-color: #ccc;
+  color: #555;
+  border: 0;
+  padding: 0 10px;
+  border-radius: 30px;
+}
+
+/* .search-form input :: -webkit-input-placeholder{
+    color:aqua;
+}
+.search-form input :: -moz-placeholder{
+    color:aqua;
+}
+.search-form input :: -ms-input-placeholder{
+    color:aqua;
+} */
+
+.search-form input:focus{
+    -webkit-box-shadow:none;
+    -moz-box-shadow:none;
+    box-shadow: none;
+}
+
+/* style for the navigation */
+.blog-menu{
+    margin: 30px 0; 
+/* top and buttom 30px */
+text-align: center;
+}
+
+/* Remove the left-hand side padding of <ul>, as follows */
+.blog-menu ul{
+    padding-left: 0;
+}
+
+.blog-menu li{
+    margin: 15px;
+    list-style: none;
+}
+/* Customize the menu color and font, as follows */
+.blog-menu a{
+    color: #555;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+}
+
+.blog-menu a:hover {
+    color:coral;
+}
