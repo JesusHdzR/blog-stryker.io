@@ -1,12 +1,11 @@
 /* this file is used for global styles for the blog */
 @import url("normalize.css");
 @import url("formalize.css");
-@import url("responsive.gs.12col.css");
 @import url("main.css");
-@import url("responsive.css");
+@import url("responsive.gs.12col.css");
 
 body {
-    background-color: aquamarine;
+    background-color: azure;
     font-family: "Droid Serif", Georgia, serif;
     font-size: 16px;
   }

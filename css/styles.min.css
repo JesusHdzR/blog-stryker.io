@@ -34,41 +34,6 @@ summary{display:list-item}
 template{display:none}
 [hidden]{display:none}
 *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
-.container{max-width:800px;margin:0 auto}
-.clr:after,.col:after,.container:after,.group:after,.row:after{content:"";display:table;clear:both}
-.row{padding-bottom:0}
-.col{display:block;float:left;width:100%}
-@media (min-width :768px){
-.gutters .col{margin-left:2%}
-.gutters .col:first-child{margin-left:0}
-}
-@media (min-width :768px){
-.span_1{width:8.33333333333%}
-.span_2{width:16.6666666667%}
-.span_3{width:25%}
-.span_4{width:33.3333333333%}
-.span_5{width:41.6666666667%}
-.span_6{width:50%}
-.span_7{width:58.3333333333%}
-.span_8{width:66.6666666667%}
-.span_9{width:75%}
-.span_10{width:83.3333333333%}
-.span_11{width:91.6666666667%}
-.span_12{width:100%}
-.gutters .span_1{width:6.5%}
-.gutters .span_2{width:15%}
-.gutters .span_3{width:23.5%}
-.gutters .span_4{width:32%}
-.gutters .span_5{width:40.5%}
-.gutters .span_6{width:49%}
-.gutters .span_7{width:57.5%}
-.gutters .span_8{width:66%}
-.gutters .span_9{width:74.5%}
-.gutters .span_10{width:83%}
-.gutters .span_11{width:91.5%}
-.gutters .span_12{width:100%}
-}
-*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
 .blog-header{padding:30px 15px;background:#020024;background:linear-gradient(90deg,rgba(2,0,36,1) 0,rgba(9,9,121,1) 50%,rgba(0,119,255,.9066001400560224) 100%)}
 .blog-name{font-family:"Varela Round",Arial,Helvetica,sans-serif;font-weight:400;font-size:42px;text-align:center;text-transform:uppercase}
 .blog-name a{color:#fff}
@@ -97,7 +62,60 @@ template{display:none}
 .blog-pagination a{-webkit-border-radius:30px;-moz-border-radius:30px;border-radius:30px;color:#7f8c8d;padding:15px 30px;border:1px solid #bdc3c7}
 .blog-pagination a:hover{color:#fff;background-color:#7f8c8d;border:1px solid #7f8c8d}
 .blog-pagination .pageof{position:absolute;top:-30px}
-body{background-color:#7fffd4;font-family:"Droid Serif",Georgia,serif;font-size:16px}
+.blog-footer{background-color:#ecf0f1;padding:60px 0;font-family:"Varela Round",Arial,Helvetica,sans-serif;margin-top:60px}
+.blog-footer,.blog-footer a{color:#7f8c8d}
+.social-media{margin:0 0 30px}
+.social-media ul{margin:0;padding-left:0}
+.social-media li{margin:0 8px 10px;list-style:none}
+.social-media a,.social-media li{font-size:18px}
+.social-media a:hover{color:#333}
+.copyright{margin-top:0}
+.copyright,.social-media{text-align:center}
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.container{max-width:800px;margin:0 auto}
+.clr:after,.col:after,.container:after,.group:after,.row:after{content:"";display:table;clear:both}
+.row{padding-bottom:0}
+.col{display:block;float:left;width:100%}
+@media (min-width:768px){
+.gutters .col{margin-left:2%}
+.gutters .col:first-child{margin-left:0}
+}
+@media (min-width:768px){
+.span_1{width:8.33333333333%}
+.span_2{width:16.6666666667%}
+.span_3{width:25%}
+.span_4{width:33.3333333333%}
+.span_5{width:41.6666666667%}
+.span_6{width:50%}
+.span_7{width:58.3333333333%}
+.span_8{width:66.6666666667%}
+.span_9{width:75%}
+.span_10{width:83.3333333333%}
+.span_11{width:91.6666666667%}
+.span_12{width:100%}
+.gutters .span_1{width:6.5%}
+.gutters .span_2{width:15%}
+.gutters .span_3{width:23.5%}
+.gutters .span_4{width:32%}
+.gutters .span_5{width:40.5%}
+.gutters .span_6{width:49%}
+.gutters .span_7{width:57.5%}
+.gutters .span_8{width:66%}
+.gutters .span_9{width:74.5%}
+.gutters .span_10{width:83%}
+.gutters .span_11{width:91.5%}
+.gutters .span_12{width:100%}
+}
+@media (min-width:640px){
+.blog-name{text-align:left;margin-bottom:0}
+.blog-menu li,.post-meta li,.social-media li{display:inline}
+.post-title{font-size:48px}
+.blog-pagination a,.blog-pagination li{display:inline}
+.blog-pagination .pageof{position:relative;top:0;padding:0 20px}
+.social-media{text-align:left}
+.copyright{text-align:right}
+}
+body{background-color:azure;font-family:"Droid Serif",Georgia,serif;font-size:16px}
 h1,h2,h3,h4,h5,h6{font-family:"Varela Round",Arial,sans-serif;font-weight:400}
 a{color:#3498db;text-decoration:none}
 a:hover{color:coral}
